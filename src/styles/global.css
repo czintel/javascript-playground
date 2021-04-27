@@ -37,6 +37,10 @@ body {
   scale: 50%;
 }
 
-button:active {
+button {
+  border-radius: 5px;
+}
+
+.active {
   background-color: hotpink;
 }
