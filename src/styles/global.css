@@ -7,23 +7,36 @@ body {
   place-items: center;
   height: 100vh;
 }
-.box {
+.box1 {
   width: 200px;
   height: 200px;
   background: hotpink;
-}
-
-.rotate {
   transform: rotate(45deg);
   transition: 1s;
 }
 
-.color {
+.box2 {
+  width: 200px;
+  height: 200px;
   background: skyblue;
   transition: 1s;
 }
 
-.shape {
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
   border-radius: 50%;
   transition: 0.3s;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background: hotpink;
+  scale: 50%;
+}
+
+button:active {
+  background-color: hotpink;
 }
