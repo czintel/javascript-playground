@@ -12,6 +12,18 @@ body {
   height: 200px;
   background: hotpink;
 }
-.blue {
+
+.rotate {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.color {
   background: skyblue;
+  transition: 1s;
+}
+
+.shape {
+  border-radius: 50%;
+  transition: 0.3s;
 }
